@@ -14,6 +14,9 @@ install
 usage
 =====
 
+zap wrappter
+------------
+
 .. code-block:: go
 
    func main() {
