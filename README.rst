@@ -21,7 +21,7 @@ usage
             WithLoggingLevel(0),
      		WithEncoded("console"),
 	    	WithColor(),
-		    WithAddCaller(),
+            WithAddCaller(),
     		WithAddStacktrace(-1),
        )
        if err != nil {
