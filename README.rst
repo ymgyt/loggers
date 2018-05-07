@@ -18,11 +18,11 @@ usage
 
    func main() {
        logger, err := _zap.NewLogger(
-            WithLoggingLevel(0),
-     		WithEncoded("console"),
-	    	WithColor(),
-            WithAddCaller(),
-    		WithAddStacktrace(-1),
+           WithLoggingLevel(0),
+           WithEncoded("console"),
+           WithColor(),
+           WithAddCaller(),
+           WithAddStacktrace(-1),
        )
        if err != nil {
            panic(err)
